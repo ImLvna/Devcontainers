@@ -1,2 +1,8 @@
 {
+  "name": "vnc",
+  "forwardPorts": [6080, 5901],
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {}
+  }
 }
